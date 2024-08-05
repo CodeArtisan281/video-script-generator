@@ -3,7 +3,7 @@ from utils import generate_script
 
 # 给网站写一个标题
 st.title('🎬 短视频脚本生成器')
-st.write('##### ps：杨博宇使用要交版权费😏')
+st.write('##### ps：🫎🏄‍♂️🐠使用要交版权费😏')
 
 # 创建一个侧边栏
 with st.sidebar:
@@ -50,7 +50,7 @@ if submit and not subject:
 # 最后当用户全都输入好按下按钮时
 if submit:
     # 创建一个加载中的小提示
-    with st.spinner('AI正在思考中，可以先去敲敲杨博宇的脑瓜子🤪'):
+    with st.spinner('AI正在思考中，可以先去敲敲🫎🏄‍♂️🐠的脑瓜子🤪'):
         # 将加载中较慢的代码放进来
         title,script,search_result = generate_script(subject,video_length,api_key,base_url,creativity)
 
